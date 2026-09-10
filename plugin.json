@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "appvault",
+  "name": "AERA App Backup Vault",
+  "version": "1.0.0",
+  "description": "Encrypted per-app backups and restores for internal or mounted network storage, powered by restic.",
+  "type": "app-runtime",
+  "entry": "appvault",
+  "min_host_api": 1,
+  "payload": "runtime.xz",
+  "payload_url": "https://github.com/AERA-Plugins/app-backup-vault/releases/download/v1.0.0/runtime.xz",
+  "payload_size": 7619120,
+  "payload_sha256": "a9730580449e9679e86c1f7b3c9260b2fb3739fa086d0d0f52d7c36a747c6cbd",
+  "expanded_size": 40240316,
+  "expanded_sha256": "07e14271105aa8af99a829deb37da3d4ea663170bfffd67ade5bbc408d730d24",
+  "member_count": 2,
+  "permissions": ["read-app-data", "write-app-data", "read-installed-apks", "write-backup-repository"]
+}
